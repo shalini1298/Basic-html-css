@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        REGISTRATION FORM
+    </title>
+</head>
+
+<body>
+<fieldset>
+    <legend>User Registration form</legend>
+    <form method="POST">
+        <table>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text">
+                        <datalist id="name">
+                            <option value=" sam">
+                            <option value="ram">
+                            <option value="jane">
+                            <option value="Opera">
+                            <option value="Saf">
+                          </datalist>
+                        </td>
+                   
+                </tr>
+                <tr>
+                    <td>Description:</td>
+                    <td><textarea name="Description" rows="3" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Status:</td>
+                    <td><input type="checkbox" value="Married">Married
+                   <input type="checkbox" value="Unmarried">Unmarried
+                    <input type="checkbox" value="Others">Others</td>
+                </tr>
+                <tr>
+                    <td>Country: </td>
+                    <td> <select name="Country">
+                            <option value="India">India</option>
+                            <option value="Us" selected='selected'>Us</option>
+                            <option value="Europe">Europe</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Add Photo</td><td> <input type="file" name="photo" > </td> </tr>
+                <tr>
+                    <td><input type="button" value="Submit"></td>
+                    <td><input type="reset" value="reset"></td>
+                </tr>
+            </tbody>
+        </table>
+</fieldset>
+    </form>
+</body>
+<html>
